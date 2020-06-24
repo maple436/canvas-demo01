@@ -45,7 +45,7 @@
       canvas.onmousemove = (e) => {
         if (painting === true) {
           drawLine(last[0], last[1], e.clientX, e.clientY);
-          last = [e.clientX, e.clintY];
+          last = [e.clientX, e.clientY];
         }
       };
 
